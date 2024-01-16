@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+<!-- dans la configuration de persistence , on doit ajouter une persistence unit-->
+    <persistence-unit name="archeo" transaction-type="RESOURCE_LOCAL">
+        <!-- provider : un element qui implemente les regles de jpa-->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!-- l'endroit ou se trouve mes classes dans le projet
+        Ce n'est pas obligatoire ici-->
+        <!-- <class>exemple.com.model.Adresse</class>-->
+        <properties>
+            <!--ajout de propriétés sous forme clé valeur-->
+            <!--ajout des elements de connexion à la base de données-->
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/archeo?serverTimezone=UTC" />
+            <property name="jakarta.persistence.jdbc.user" value="root" />
+            <property name="jakarta.persistence.jdbc.password" value="root" />
+            <!-- configuration jpa hibernate -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+            <property name="hibernate.hbm2ddl.auto" value="update" />
+            <property name="hibernate.show_sql" value="true" />
+        </properties>
+
+    </persistence-unit>
+
+</persistence>

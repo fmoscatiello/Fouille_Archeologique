@@ -21,7 +21,7 @@ accessoire de cuisine), un état de complétude (par exemple, fragment) et par u
 
 ## Technologies utilisées  
 
-**Java**
+**Java**  
 **Hibernate**
 
 ## Paradigme de programmation utilisé  

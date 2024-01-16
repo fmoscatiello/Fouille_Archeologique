@@ -1,5 +1,5 @@
-# Enoncé:  
-## Conception d’une base de données pour les fouilles archéologiques  
+# Conception d’une base de données pour les fouilles archéologiques  
+## Enoncé
 
 Vous devez gérer une base de données archéologique. Les objets trouvés sur les sites de fouille sont 
 répertoriés. Et on désire connaître quels sont les archéologues qui fouillent et sur quels sites.  
@@ -18,3 +18,12 @@ Un objet est trouvé par une équipe donnée, sur une parcelle donnée, à une d
 identifié par un numéro, une désignation (par exemple, assiette), une catégorie (par exemple, 
 accessoire de cuisine), un état de complétude (par exemple, fragment) et par un état de conservation 
 (par exemple, à restaurer).  
+
+## Technologies utilisées  
+
+**Java**
+**Hibernate**
+
+## Paradigme de programmation utilisé  
+
+**Programmation Orientée Objet**

@@ -1,5 +1,5 @@
-#Enoncé:
-Conception d’une base de données pour les fouilles archéologiques  
+# Enoncé:  
+## Conception d’une base de données pour les fouilles archéologiques  
 
 Vous devez gérer une base de données archéologique. Les objets trouvés sur les sites de fouille sont 
 répertoriés. Et on désire connaître quels sont les archéologues qui fouillent et sur quels sites.  
